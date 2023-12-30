@@ -56,8 +56,9 @@ const SearchBar = () => {
               <button
                 title='Tìm Kiếm'
                 className='text-white capitalize flex items-center justify-center bg-gray-700 sm:bg-gradient h-[36px] sm:h-[50px] w-[50px] sm:w-[100px] lg:w-[140px]'
+                style={{ backgroundColor: 'rgb(235, 84, 96)' }}
               >
-                <span className='sm:inline-block hidden'>Tìm Kiếm</span>
+                <span className='sm:inline-block hidden' >Tìm Kiếm</span>
                 <p
                   className='bg-cover bg-no-repeat w-[18px] h-[18px] inline-block sm:hidden'
                   style={{
